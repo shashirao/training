@@ -1,0 +1,7 @@
+declare 
+var_number number(10);
+var_name varchar2(10):= 'shashi';
+begin 
+var_number:=100;
+dbms_output.put_line('employee id is  ' || var_number ||' AND employee name' || var_name));
+end;
